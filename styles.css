@@ -1,0 +1,107 @@
+
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.city{
+    font-size: 50px;
+    text-align: left;
+}
+.p{
+    font-size: 50px;
+}
+.places{
+    display: flex;
+}
+h1{
+    text-align: center;
+}
+.Foregn{
+   text-align: center;
+}
+
+.image1{
+    width: 360px;
+    height: 280px; 
+}
+
+.dubai {
+    width: 350px;
+    heig<p>  I would like to visit of Dubai, It is a most impressive skyline in the world. I would love to exprience new things seeing new places also get to know more things like their languages they have in the country, would love to make friends and take even if i would relocate I would mind because I will create new family and let my family to visit me from Dubai.</p>ht: 240px;
+}
+table , th ,td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 500px;
+}
+.image2{
+    width: 345px;
+    height: 280px;
+}
+.image3{
+    width: 345px;
+    height: 280px;
+}
+.image4{
+    width: 345px;
+    height: 280px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    column-gap:40px ;
+}
+/*----------------------------------------------------------------------------*/
+.city-main{
+    display:flex;
+    justify-content: center;
+    column-gap: 200px;
+}
+.uae {
+     display: flex;
+     flex-direction: row;  
+     gap: 20px;
+}
+.uae > p {
+ align-self: center;
+}
+body {
+    background-color:grey; 
+    margin: 0px 150px 0px 150px;
+}
+.places{
+    display:flex;
+    flex-direction: row;
+}
+.places > h2{
+    display: flex;
+    align-self: flex-start;
+}
+.good{
+    display: flex;
+    gap: 20px;
+    align-items:start;
+}
+.city{
+    text-align: center;
+}
+.heading{
+    align-items: center;
+}
+.table{
+    display: flex;
+    justify-content: center;
+}
+.language > p {
+    text-align:center;
+}
+@media screen  and (max-width:500px){
+    .header > h2 {
+        font-size:50px;
+    }
+        }
+    
+
