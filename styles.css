@@ -7,7 +7,7 @@
 }
 .city{
     font-size: 50px;
-    text-align: left;
+    text-align: center;
 }
 .p{
     font-size: 50px;
@@ -29,24 +29,30 @@ h1{
 
 .dubai {
     width: 350px;
-    heig<p>  I would like to visit of Dubai, It is a most impressive skyline in the world. I would love to exprience new things seeing new places also get to know more things like their languages they have in the country, would love to make friends and take even if i would relocate I would mind because I will create new family and let my family to visit me from Dubai.</p>ht: 240px;
 }
 table , th ,td {
     border: 3px solid black;
     border-collapse: collapse;
-    width: 500px;
+    width: 800px;
 }
 .image2{
     width: 345px;
     height: 280px;
 }
 .image3{
-    width: 345px;
+    width:345px;
     height: 280px;
 }
 .image4{
     width: 345px;
     height: 280px;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
 }
 
 .header{
@@ -60,7 +66,7 @@ table , th ,td {
     justify-content: center;
     column-gap: 200px;
 }
-.uae {
+.things{
      display: flex;
      flex-direction: row;  
      gap: 20px;
@@ -83,7 +89,11 @@ body {
 .good{
     display: flex;
     gap: 20px;
-    align-items:start;
+    align-items:start; 
+
+}
+.image-box {
+    float: left;
 }
 .city{
     text-align: center;
@@ -98,10 +108,38 @@ body {
 .language > p {
     text-align:center;
 }
-@media screen  and (max-width:500px){
-    .header > h2 {
-        font-size:50px;
+@media screen  and (max-width:680px){
+    .header {
+        font-size:30px;
+        flex-direction: column;
     }
-        }
+    .name{
+        font-size: 30px;
+    }
+    .image1{
+        width:260px;
+        height: 200px;
+    }
+    .places {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        flex-direction: column;
+        text-align:center;
+    }
+    .things{
+        flex-direction: column;
+    }
+    .dubai{
+      width:260px;
+      height: 200px;
+      float: right;
+    }
+    .city{
+        font-size: 30px;
+    }
+}
+
+
     
 
