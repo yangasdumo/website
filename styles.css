@@ -1,5 +1,15 @@
 
-
+/* *{
+    box-sizing: border-box;
+    margin: 0; */
+}
+/* .container{
+    width: 100%;
+   padding: 20px; */
+}
+.contauner{
+    width: 100%;
+}
 .name {
     font-size: 50px;
     font-weight: bold;
@@ -17,14 +27,15 @@
 }
 h1{
     text-align: center;
+
 }
 .Foregn{
    text-align: center;
 }
 
 .image1{
-    width: 360px;
-    height: 280px; 
+    width: 200px;
+    height: 200px; 
 }
 
 .dubai {
@@ -36,16 +47,16 @@ table , th ,td {
     width: 800px;
 }
 .image2{
-    width: 345px;
-    height: 280px;
+    width: 200px;
+    height: 200px;
 }
 .image3{
-    width:345px;
-    height: 280px;
+    width:200px;
+    height: 200px;
 }
 .image4{
-    width: 345px;
-    height: 280px;
+    width: 200px;
+    height: 200px;
 }
 
 .left{
@@ -68,7 +79,7 @@ table , th ,td {
 }
 .things{
      display: flex;
-     flex-direction: row;  
+     flex-direction: row; 
      gap: 20px;
 }
 .uae > p {
@@ -76,7 +87,6 @@ table , th ,td {
 }
 body {
     background-color:grey; 
-    margin: 0px 150px 0px 150px;
 }
 .places{
     display:flex;
@@ -87,13 +97,11 @@ body {
     align-self: flex-start;
 }
 .good{
-    display: flex;
-    gap: 20px;
-    align-items:start; 
-
+    /* width: 600px; */
 }
 .image-box {
     float: left;
+    padding-right: 10px;
 }
 .city{
     text-align: center;
@@ -109,23 +117,28 @@ body {
     text-align:center;
 }
 @media screen  and (max-width:680px){
+    .contauner{
+        width: 100%;
+    }
     .header {
         font-size:30px;
         flex-direction: column;
     }
     .name{
         font-size: 30px;
+        padding-bottom: 10px;
     }
     .image1{
-        width:260px;
+        width:200px;
         height: 200px;
+        align-self: center;
     }
     .places {
         display: flex;
         align-items: center;
         justify-items: center;
-        flex-direction: column;
-        text-align:center;
+         flex-direction: column; 
+        text-align: center; 
     }
     .things{
         flex-direction: column;
@@ -134,9 +147,24 @@ body {
       width:260px;
       height: 200px;
       float: right;
+      align-self: center;
     }
     .city{
         font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .good p{
+       width:200px;
+       margin-left:10em;
+       padding-left:10em;
+    
+    }
+    .Foregn{
+        padding-bottom: 10px;
+    }
+    .image-box {
+        margin-left: 10%; 
+        padding-left: 12%;
     }
 }
 
