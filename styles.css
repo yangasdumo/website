@@ -1,8 +1,7 @@
-
- /* *{
-    box-sizing: border-box;
-    margin: 0; 
-} */
+/* *{ */
+    /* box-sizing: border-box; */
+    /* margin: 0;  */
+/* } */
 
  /* .container{
     width: 100%;
@@ -13,7 +12,7 @@
     width: 100%;
 }
 .name {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
 }
@@ -34,12 +33,10 @@ h1{
 .Foregn{
    text-align: center;
 }
-
 .image1{
     width: 200px;
     height: 200px; 
 }
-
 .dubai {
     width: 350px;
 }
@@ -60,18 +57,17 @@ table , th ,td {
     width: 200px;
     height: 200px;
 }
-
 .left{
     float: left;
 }
 .right{
     float: right;
 }
-
 .header{
     display: flex;
     justify-content: center;
     column-gap:40px ;
+    font-size:40px;
 }
 /*----------------------------------------------------------------------------*/
 .city-main{
@@ -88,7 +84,10 @@ table , th ,td {
  align-self: center;
 }
 body {
-    background-color:grey; 
+    background-color: darkgreen;
+    color: white;
+    font-size: 20px;
+
 }
 .places{
     display:flex;
@@ -110,6 +109,7 @@ body {
 }
 .heading{
     align-items: center;
+
 }
 .table{
     display: flex;
@@ -119,12 +119,13 @@ body {
     text-align:center;
 }
 @media screen  and (max-width:680px){
-    .contauner{
+    .container{
         width: 100%;
     }
     .header {
         font-size:30px;
         flex-direction: column;
+        text-align: center;
     }
     .name{
         font-size: 30px;
@@ -157,8 +158,8 @@ body {
     }
     .good p{
        width:200px;
-       margin-left:10em;
-       padding-left:10em;
+       margin-left:10px; 
+       padding-left:10px; 
     
     }
     .Foregn{
