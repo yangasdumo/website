@@ -118,7 +118,23 @@ body {
 .language > p {
     text-align:center;
 }
+.three-places{
+    width:100%;
+    padding-right: 5px;
+
+}
+.good img{
+    width:170px;
+    height:170px;
+}
+
 @media screen  and (max-width:680px){
+    .good img{
+        width:170px;
+        height:170px;
+        float:left;
+    }
+
     .container{
         width: 100%;
     }
@@ -138,9 +154,9 @@ body {
     }
     .places {
         display: flex;
-        align-items: center;
+        /* align-items: center; */
         justify-items: center;
-         flex-direction: column; 
+    flex-direction: column; 
         text-align: center; 
     }
     .things{
@@ -156,10 +172,11 @@ body {
         font-size: 30px;
         padding-bottom: 10px;
     }
-    .good p{
-       width:200px;
-       margin-left:10px; 
-       padding-left:10px; 
+    .good p {
+       width:100%;
+       margin-left:5px; 
+       padding-left:5px;
+       padding-top: 10px; 
     
     }
     .Foregn{
