@@ -255,8 +255,6 @@ flex-direction: row;
   .col-3{
     width:50%;
     align-self: center;
-    
-
   }
-  
+  }
 }
