@@ -87,7 +87,7 @@ table , th ,td {
 }
 body {
     background-color:violet;
-    color: white;
+    color:black;
     font-size: 20px;
 
 }
@@ -104,7 +104,7 @@ body {
 }
 .image-box {
     float: left;
-    padding-right: 10px;
+    padding-right:5px;
 }
 .city{
     text-align: center;
