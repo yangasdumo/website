@@ -49,16 +49,16 @@ table , th ,td {
 }
 .image2{
     
-    width: 200px; 
-    height: 200px;
+    width: 180px; 
+    height: 180px;
 }
 .image3{
-    width:200px;
-    height: 200px;
+    width:180px;
+    height: 180px;
 }
 .image4{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
 }
 .left{
     float: left;
@@ -188,6 +188,9 @@ body {
     .image-box {
         margin-left: 10%; 
         padding-left: 12%;
+    }
+    h2{
+        text-align: center;
     }
 }
 
